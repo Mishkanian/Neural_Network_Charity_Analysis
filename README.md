@@ -1,7 +1,7 @@
 # Neural Network Charity Analysis
 
 ## Project Overview
-
+The purpose of this project is to create a a binary classifier that is capable of predicting whether applicants will be successful if funded by a fictional company "Alphabet Soup." The data is preprocessed for a Neurnal Network Model
 
 ## Software and Resources
 
