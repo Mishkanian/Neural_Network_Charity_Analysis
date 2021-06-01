@@ -59,6 +59,9 @@ None of the optimization attempts in this analysis were able to produce a model 
 - Using different activation functions.
 - Decreasing the number of epochs in the training.
 
+There could be numerous reasons why this model did not reach the targeted predictive accuracy level of 75%. The number of neurons in the hidden layers may need to be adjusted. The number of epochs during trainiing may need to be increased. The input data may have outliers or variables that are confusing the model.
+
+Instead of using a Deep Learning model in this binary classifiication project, it may be preferable to use a Random Forest Classifier. Whereas Deep Learning models are complex to setup and time consuming to train, Random Forest Classifiers are much simpler to setup and can be trained in a matter of seconds. Furthermore, the predictive accuracy level of these two models would most likely be similar. For its ease of implementation and applicability to this situation, it is recommended to use a Random Forest Classifier for future development on this project.
 
 **Author: Michael Mishkanian**  
 For all questions and inquiries, please contact me on [LinkedIn](https://www.linkedin.com/in/michaelmishkanian/).
