@@ -31,7 +31,7 @@ Rectified Linear Unit (ReLU) is used as the activation function for both the fir
 
 ![original_accuracy](https://github.com/Mishkanian/Neural_Network_Charity_Analysis/blob/main/README_Images/accuracy_original.png)
 
-Although an accuracy of 72.67% is somewhat high, it is decided to optimize the model. 
+Although an accuracy of 72.67% is somewhat high, it is decided to optimize the model to 75% or higher. 
 
 #### Optimization Attempt 1
 
@@ -43,7 +43,7 @@ In the first attempt to optimize this model, the number of neurons in the hidden
 
 ![attempt2](https://github.com/Mishkanian/Neural_Network_Charity_Analysis/blob/main/README_Images/attempt2_third_layer_accuracy.png)
 
-In the second attempt, a third hidden layer was added to the model with 4 neurons. This change slightly reduced the model's accuracy. This third layer is deleted due to it's negative effect.
+In the second attempt, a third hidden layer was added to the model with 4 neurons. This change slightly reduced the model's accuracy. The number of epochs were also reduced to 40 (Down from 50 epochs). This third layer is deleted due to it's negative effect.
 
 #### Optimization Attempt 3
 
@@ -53,7 +53,11 @@ In the third attempt, the activation function in the second hidden layer is chan
 
 ## Summary
 
-[PROJECT IN PROGRESS]
+None of the optimization attempts in this analysis were able to produce a model with a predictive accuracy level of 75% or higher. The following methods were attempted: 
+- Adding an additional hidden layer.
+- Adding more neurons to a hidden layer.
+- Using different activation functions.
+- Decreasing the number of epochs in the training.
 
 
 **Author: Michael Mishkanian**  
